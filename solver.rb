@@ -1,8 +1,8 @@
 class Solver
-   attr_reader:N
+   attr_reader:number
 
-   def initialize (N)
-    @num = N
+   def initialize (number)
+    @num = number
    end
 
    def factorial
