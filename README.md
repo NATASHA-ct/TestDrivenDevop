@@ -1,75 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TEST DRIVEN DEVELOPMENT
 
-> Description the project.
-
+This is a collaborated project we did when practicing application of Test Driven Development(TDD) principles in developing programs. All the classes and methods were written after the tests had been implemented.We used algorithms for factorial and fizzbuzz.
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Terminal
+- Rspec for testing
+- Rubocop (linters)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
+-To get a local copy up and running follow these simple example steps.
 
 ### Install
+In your terminal, navigate to your current directory and run this code:
+ https://github.com/NATASHA-ct/School-Library-Database.git
 
-### Usage
+-Locate the directory in your file explorer
 
-### Run tests
+-cd schoo-library
 
-### Deployment
+-Install Rubocop using...
+  bundle install
+  
+For  Rspec you need to install the rspec gem using :
+  gem install rspec
 
+### Run Linters:
+-To run rubocop we use...
+   rubocop .
 
+-To autocorrect offenses with rubocop we use:
+   rubocop --auto-correct-all or rubocop -A
 
 ## Authors
 
-👤 **Author1**
+👤 **Natasha Tatenda Chirombe**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
+- Twitter: [@NatashaChirombe]
+- LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
 
-👤 **Author2**
+👤 **Mustafa Fahimy**(contributor)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@fahimy143](https://github.com/fahimy143)
+- LinkedIn: [Mustafa Fahimy](https://www.linkedin.com/in/mustafa-fahimy-307566236/)
 
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+Hat tip to all documentations used
+Inspiration
+etc
+📝 License
+This project is MIT licensed.
