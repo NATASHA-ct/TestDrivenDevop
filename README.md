@@ -1,56 +1,63 @@
-# TDD prject
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TDD Project
+# TEST DRIVEN DEVELOPMENT
 
-> A ruby App that practice TDD.
+This is a collaborated project we did when practicing application of Test Driven Development(TDD) principles in developing programs. All the classes and methods were written after the tests had been implemented.We used algorithms for factorial and fizzbuzz.
 
 ## Built With
-
-- **Languages & Technologies:**
-  - Ruby 
-  - Linters
+- Ruby
+- Terminal
+- Rspec for testing
+- Rubocop (linters)
 
 ## Getting Started
+-To get a local copy up and running follow these simple example steps.
 
-To get a local copy up and running follow these simple example steps.
+### Install
+In your terminal, navigate to your current directory and run this code:
+ https://github.com/NATASHA-ct/School-Library-Database.git
 
-- Clone repository in your local machine 
-- run `npm install` in the terminal.
+-Locate the directory in your file explorer
 
-## Live Demo
+-cd schoo-library
 
-[Coming soon]()
+-Install Rubocop using...
+  bundle install
+  
+For  Rspec you need to install the rspec gem using :
+  gem install rspec
+
+### Run Linters:
+-To run rubocop we use...
+   rubocop .
+
+-To autocorrect offenses with rubocop we use:
+   rubocop --auto-correct-all or rubocop -A
 
 ## Authors
 
-👤 **Mustafa Fahimy**
+👤 **Natasha Tatenda Chirombe**
+
+- GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
+- Twitter: [@NatashaChirombe]
+- LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
+
+👤 **Mustafa Fahimy**(contributor)
 
 - GitHub: [@fahimy143](https://github.com/fahimy143)
 - LinkedIn: [Mustafa Fahimy](https://www.linkedin.com/in/mustafa-fahimy-307566236/)
 
-👤 **Natasha Chirombe**
-
-GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
-Twitter: [@NatashaChirombe]
-LinkedIn: Natasha Chirombe
-
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Hat tip to all documentations used
+Inspiration
+etc
+📝 License
+This project is MIT licensed.
