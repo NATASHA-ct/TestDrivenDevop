@@ -18,17 +18,23 @@ describe Solver do
     expect { solver.factorial }.to raise_error('Factorial of negative number is not defined')
   end
 
+#Test for reverse string method"
   it 'reverse a given string' do
     solver = Solver.new(5)
     expect(solver.reverse('hello')).to eq('olleh')
   end
-
-
 
 #test for fizzbuzz method
   it 'FizzBuzz returns FizzBuzz when its a multiple of both 3 and 5' do
     solver = Solver.new(15)
     expect(solver.fizzbuzz).to eq('FizzBuzz')
   end
+
+  it 'FizzBuzz returns Fizz when its a multiple of 3' do
+    solver = Solver.new(9)
+    expect(solver.fizzbuzz).to eq('Fizz')
+  end
+
+
 
 end
