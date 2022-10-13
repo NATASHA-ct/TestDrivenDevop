@@ -35,6 +35,11 @@ describe Solver do
     expect(solver.fizzbuzz).to eq('Fizz')
   end
 
+  it 'FizzBuzz returns Buzz when its multiple of 5' do
+    solver = Solver.new(5)
+    expect(solver.fizzbuzz).to eq('Buzz')
+  end
+
 
 
 end
