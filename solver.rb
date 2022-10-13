@@ -4,4 +4,9 @@ class Solver
    def initialize (N)
     @num = N
    end
+
+   def factorial
+   
+   end
+
 end
