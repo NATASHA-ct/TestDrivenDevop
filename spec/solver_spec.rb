@@ -7,4 +7,10 @@ describe Solver do
     expect(solver.factorial).to eq(120)
   end
 
+  it 'factorial of zero return 1' do
+    solver = Solver.new(0)
+
+    expect(solver.factorial).to eq(1)
+  end
+
 end
