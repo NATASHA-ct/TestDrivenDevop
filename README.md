@@ -26,6 +26,8 @@ In your terminal, navigate to your current directory and run this code:
   
 For  Rspec you need to install the rspec gem using :
   gem install rspec
+  
+To run the test run in your terminal :rspec spec
 
 ### Run Linters:
 -To run rubocop we use...
