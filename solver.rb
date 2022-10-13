@@ -1,12 +1,12 @@
 class Solver
-   attr_reader:number
+  attr_reader :number
 
-   def initialize (number)
+  def initialize(number)
     @num = number
-   end
+  end
 
-   def factorial
-     if @num.zero?
+  def factorial
+    if @num.zero?
       1
     elsif @num.negative?
       raise 'Factorial of negative number is not defined'
@@ -16,11 +16,11 @@ class Solver
       digits.each { |num| result *= num }
       result
     end
-   end
+  end
 
-   def reverse(string)
+  def reverse(string)
     string.reverse
-   end
+  end
 
   def fizzbuzz
     if (@num % 3).zero? && (@num % 5).zero?
@@ -33,5 +33,4 @@ class Solver
       @num.to_s
     end
   end
-
 end
