@@ -40,6 +40,8 @@ describe Solver do
     expect(solver.fizzbuzz).to eq('Buzz')
   end
 
-
-
+  it 'When num is neither multiple of 3 or 5' do
+    solver = Solver.new(7)
+    expect(solver.fizzbuzz).to eq('7')
+  end
 end
