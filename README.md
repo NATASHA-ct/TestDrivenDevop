@@ -15,7 +15,8 @@ This is a collaborated project we did when practicing application of Test Driven
 
 ### Install
 In your terminal, navigate to your current directory and run this code:
- https://github.com/NATASHA-ct/School-Library-Database.git
+
+ https://github.com/NATASHA-ct/TestDrivenDevop.git
 
 -Locate the directory in your file explorer
 
@@ -26,6 +27,7 @@ In your terminal, navigate to your current directory and run this code:
   
 For  Rspec you need to install the rspec gem using :
   gem install rspec
+
   -NB* individual tests are known in RSpec, as the “Examples”.
   
 To run the test run in your terminal :rspec spec
