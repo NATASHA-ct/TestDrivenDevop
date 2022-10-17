@@ -15,7 +15,7 @@ This is a collaborated project we did when practicing application of Test Driven
 
 ### Install
 In your terminal, navigate to your current directory and run this code:
- https://github.com/NATASHA-ct/School-Library-Database.git
+ https://github.com/NATASHA-ct/TestDrivenDevop.git
 
 -Locate the directory in your file explorer
 
