@@ -63,6 +63,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 Hat tip to all documentations used
 Inspiration
-etc
-📝 License
+
+
+## 📝 License
 This project is MIT licensed.
